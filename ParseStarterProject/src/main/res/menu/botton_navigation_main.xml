@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/photos"
+        android:title="Photos"
+        android:icon="@drawable/ic_photos"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/plan"
+        android:title="Plan"
+        android:icon="@drawable/ic_plan"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/location"
+        android:title="Location"
+        android:icon="@drawable/ic_location"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
